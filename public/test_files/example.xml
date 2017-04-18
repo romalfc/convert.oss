@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+   <product>
+      <title>Soflyy T-Shirt</title>
+      <sku>999-X</sku>
+      <parent_sku />
+      <price />
+      <color />
+      <description>This shirt is awesome.</description>
+   </product>
+   <product>
+      <title>Soflyy T-Shirt (blue)</title>
+      <sku>999-B</sku>
+      <parent_sku>999-X</parent_sku>
+      <price>15</price>
+      <color>blue</color>
+      <description />
+   </product>
+</document>
