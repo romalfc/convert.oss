@@ -13,6 +13,8 @@ git clone https://github.com/romalfc/convert.oss
 ```
 composer update
 ```
+3) Add new virtual host on your Apache or Nginx server. Root directory of app in /convert.oss/public/ 
+
 We are ready!
 
 ## Testing
