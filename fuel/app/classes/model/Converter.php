@@ -24,7 +24,7 @@ class Model_Converter
 		$inputExt = explode('.', Input::file('input')['name']);
 		$this->inputExt = $inputExt[count($inputExt)-1];
 
-		$this->outputExt = Input::post('output');e extension from Form
+		$this->outputExt = Input::post('output');
 		$this->tempName = Input::file('input')['tmp_name'];
 		$this->tempDir = 'temp'.DIRECTORY_SEPARATOR;
 		//Getting random string for filename
