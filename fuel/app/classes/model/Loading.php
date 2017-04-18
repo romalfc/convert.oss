@@ -23,6 +23,7 @@ class Model_Loading
 		$this->source = DOCROOT.'temp'.DIRECTORY_SEPARATOR.$this->fileName.'.'.$this->fileExt;
 		$exists = File::exists($this->source);
 		if($exists){
+			//Last parameter set to true for file deleting after downloading
 			return File::download($this->source, null, null, null, true);
 		}
 	}
